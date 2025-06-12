@@ -1,0 +1,63 @@
+
+.container{
+  position: relative;
+  margin-top: 60px;
+  left: 30% ;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  border: 5px solid pink;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgba(173, 216, 230, 0.9);
+}
+.slider{
+  position: relative;
+  display: flex;
+  width: 500px;
+}
+.slider .slide{
+  position: relative;
+  left: 0%;
+  object-fit:fill;
+  height: 300px;
+  animation: slide 10s infinite;
+}
+.slider .slide img{
+  width: 500px;
+  height: 300px;
+}
+@keyframes slide {
+  0%{
+    left: 0%;
+  }
+  10%{
+    left: 0%;
+  }
+  20%{
+    left: -100%;
+  }
+  30%{
+    left: -100%;
+  }
+  40%{
+    left: -200%;
+  }
+  50%{
+    left: -200%;
+  }
+  60%{
+    left: -300%;
+  }
+  70%{
+    left: -300%;
+  }
+  80%{
+    left: -400%;
+  }
+  90%{
+    left: -400%
+  }
+  100%{
+    left:-500%;
+  }
+}

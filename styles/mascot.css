@@ -1,0 +1,423 @@
+body{
+  background: linear-gradient(45deg,white,lightblue);
+}
+.tab{
+  position: absolute;
+  top:15%;
+  left:30%;
+}
+.tab a{
+  text-decoration: none;
+  color: lightblue;
+  margin: 15px;
+  font-weight: bold;
+}
+.tab a:hover{
+  color: pink;
+}
+.logo1{
+  cursor:default;
+  position: absolute;
+  top:0;
+  left: 40%;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.logo1 .c {
+  color:white;
+  font-size: 70px;
+  background-color:rgba(255, 255, 0, 0.3);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.logo1 .u {
+  color:blue;
+  font-size: 35px;
+  background-color: rgba(255,200,200,0.4);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.logo1 .t{
+  color: pink;
+  font-size: 75px;
+  background-color: rgba(0,0, 255, 0.2);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.logo1 .e{
+  position: grid;
+  color:yellow;
+  font-size: 35px;
+  background-color: rgba(255,255,255.0.6);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.searchbar1{
+  position:absolute;
+  display: flex;
+  top:20%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: pink;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.searchbar1 form{
+  display: flex;
+  width: 90%;
+}
+.searchbar1 form input{
+  position: relative;
+  width: 80%;
+  height: 30px;
+  margin: 10px;
+  margin-right: 0px;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.searchbar1 form button{
+  position: relative;
+  width: 7%;
+  height: 30px;
+  margin: 10px;
+  margin-left: 0px;
+  border: none;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.searchbar1 form button img{
+  position: absolute;
+  width: 23px;
+  top: 3px;
+  right: 7px;
+  transition: 0.6s;
+}
+.searchbar1:hover{
+  background-color: rgba(255,190,200,0.8);
+}
+.searchbar1 img:hover{
+  transform: translate(-1px,-1px);
+}
+.home{
+  position:absolute;
+  top: 80%;
+  left: 41%;
+  right: auto;
+}
+.home a{
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+.home a:hover{
+  box-shadow: 5px 5px 2px lightblue;
+  background-color: pink;
+}
+.mascot{
+  position: absolute;
+  top:30%;
+  left: 40%;
+}
+.face{
+  position: absolute;
+  top: 30px;
+  left: 3.6em;
+  right: 0;
+  bottom: 250px;
+  height: 50px;
+  width: 100px;
+  border-radius: 25%;
+  background-color: aqua;
+}
+.head{
+  position: absolute;
+  top:0;
+  left: 3em;
+  right: 0;
+  bottom: 150px;
+  height: 100px;
+  width: 120px;
+  border-bottom: 1px solid pink;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  background-color: lightblue;
+}
+.body{
+  position: absolute;
+  top: 104px;
+  left: 2em;
+  right: 0;
+  bottom: 150px;
+  height: 150px;
+  width: 150px;
+  border-top: 1px solid pink;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: lightblue;
+}
+.wheel1{
+  position: absolute;
+  top: 250px;
+  left: 2.6em;
+  right: 0;
+  bottom: 150px;
+  height: 50px;
+  width: 60px;
+  border-radius: 25% 25% 25% 25%;
+  border: 2px solid lightblue;
+  background-color: pink;
+}
+.wheel2{
+  position: absolute;
+  top: 250px;
+  left: 7em;
+  right: 0;
+  bottom: 150px;
+  height: 50px;
+  width: 60px;
+  border: 2px solid lightblue;
+  border-radius: 25% 25% 25% 25%;
+  background-color: pink;
+}
+.eye1{
+  position: absolute;
+  top: 38px;
+  left: 4em;
+  right: 0;
+  bottom: 150px;
+  height: 30px;
+  width: 30px;
+  border-top-right-radius: 55%;
+  border-top-left-radius: 55%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%; 
+  background-color: pink;
+}
+.eye2{
+  position: absolute;
+  top: 38px;
+  left: 7.5em;
+  right: 0;
+  bottom: 150px;
+  height: 30px;
+  width: 30px;
+  border-top-right-radius: 55%;
+  border-top-left-radius: 55%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%; 
+  background-color: pink;
+  animation: eye 1s 
+}
+.pupil1{
+  position: absolute;
+  top: 50px;
+  left: 4.3em;
+  right: 0;
+  bottom: 150px;
+  height: 6px;
+  width: 20px; 
+  background-color: blue;
+}
+.pupil2{
+  position: absolute;
+  top: 50px;
+  left: 7.8em;
+  right: 0;
+  bottom: 150px;
+  height: 6px;
+  width: 20px;
+  background-color: blue;
+}
+.dot1{
+  display: none;
+  position: absolute;
+  top: 55px;
+  left: 4.5em;
+  right: 0;
+  bottom: 150px;
+  height: 6px;
+  width: 5px;
+  background-color: white;
+}
+.dot2{
+  display: none;
+  position: absolute;
+  top: 55px;
+  left: 8em;
+  right: 0;
+  bottom: 150px;
+  height: 6px;
+  width: 5px;
+  background-color: white;
+}
+.rleft{
+  position: absolute;
+  top: 104px;
+  left: -8em;
+  right: 0;
+  bottom: 0;
+  width: 140px;
+  height: 36px;
+  border-bottom: 1px solid black;
+  border-bottom-right-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 35px;
+  background-color: lightblue;
+  transform-origin: 100% 0%;
+  transform: rotateZ(-90deg);
+}
+#left{
+  display: none;
+}
+#left:checked ~ .mascot .leftbtn .rleft{
+  transform: rotateZ(0);
+  animation: hand1 0.8s linear infinite;
+}
+#left:checked ~ .mascot .pupil1{
+  top: 45px;
+  height: 17px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#left:checked ~ .mascot .pupil2{
+  top: 45px;
+  height: 17px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: red;
+}
+#left:checked ~ .mascot .dot1{
+  display: block;
+}
+#left:checked ~ .mascot .dot2{
+  display: block;
+}
+.rright{
+  position: absolute;
+  top: 104px;
+  left: 13em;
+  right: 0;
+  bottom: 0;
+  width: 140px;
+  height: 36px;
+  border-bottom: 1px solid black;
+  border-bottom-left-radius: 5%;
+  border-top-left-radius: 5%;
+  border-bottom-right-radius: 35px;
+  background-color: lightblue;
+  transform-origin: 0% 0%;
+  transform: rotateZ(90deg);
+}
+#right{
+  display: none;
+}
+#right:checked ~.mascot .rightbtn .rright{
+  transform: rotateZ(0);
+  animation: hand2 0.8s linear infinite;
+}
+#right:checked ~.mascot .pupil1{
+  top: 45px;
+  height: 17px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#right:checked ~.mascot .pupil2{
+  top: 45px;
+  height: 17px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: red;
+}
+#right:checked ~ .mascot .dot1{
+  display: block;
+}
+#right:checked ~ .mascot .dot2{
+  display: block;
+}
+#fly{
+  display: none;
+}
+#fly:checked ~ .mascot{
+  animation: fly 3s linear;
+  transition: 0.6s;
+}
+#fly:checked ~.mascot .pupil1{
+  top: 45px;
+  height: 17px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#fly:checked ~.mascot .pupil2{
+  top: 45px;
+  height: 17px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: red;
+}
+#fly:checked ~ .mascot .dot1{
+  display:block;
+}
+#fly:checked ~ .mascot .dot2{
+  display:block;
+}
+@keyframes hand1{
+  0%{
+    transform: rotateZ(45deg);
+  }
+  50%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(45deg);
+  }
+}
+@keyframes hand2{
+  0%{
+    transform: rotateZ(-45deg);
+  }
+  50%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(-45deg);
+  }
+}
+@keyframes fly {
+  0%{
+    top: 25%;
+  }
+  25%{
+    top: 20%
+  }
+  50%{
+    top:15%;
+  }
+  75%{
+    top: 10%;
+  }
+  100%{
+    top:0%;
+  }
+}

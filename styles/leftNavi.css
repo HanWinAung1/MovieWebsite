@@ -1,0 +1,159 @@
+*{
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+.wrapper{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+input{
+  display: none;
+}
+
+.nav{
+  display:flex;
+  background-color: lightblue;
+  height: 50px;
+  justify-content: space-between;
+}
+.left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left label:hover{
+  background-color: rgba(0,0,0,0.3);
+}
+.left label{
+  display: grid;
+  width: min-content;
+  margin-left: 20px;
+  cursor: pointer;
+  z-index: 2;
+  padding: 6px;
+  border-radius: 50%;
+}
+.left label .bar{
+  display: grid;
+  background-color: white;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  height: 4px;
+  width: 25px;
+  transition: .4s;
+}
+.left .list  {
+  display:grid;
+  background-color: lightblue;
+  transform: translateY(-100%);
+  border-radius: 25px;
+  width: 30%;
+  line-height: 30px;
+  position: absolute;
+  transition: .6s;
+  z-index: -1;
+}
+.items{
+  border-radius: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+.left .list .items .link{
+  color: snow;
+  padding: 20px 0px 20px 20px;
+}
+.left .list .items label{
+  display: inline;
+  color: snow;
+  padding: 20px 0px 20px 20px;
+  margin: 0%;
+  border-radius: 0;
+}
+.left .list .items label:hover{
+  background: none;
+}
+#menu:checked ~ .nav .left .list{
+  top: 55px;
+  transform: translateY(0);
+  transition: .6s;
+  z-index: 100;
+}
+#menu:checked ~ .nav label .bar:nth-child(1){
+  position: absolute;
+  transform:rotate(45deg);
+}
+#menu:checked ~ .nav label .bar:nth-child(2){
+  display: none;
+}
+#menu:checked ~ .nav label .bar:nth-child(3){
+  position: absolute;
+  transform:rotate(-45deg);
+}
+.list .items:hover{
+  background-color: rgb(150, 200, 210);
+}
+.logo{
+  cursor:default;
+  position: absolute;
+  margin-left: 75px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.logo .c {
+  color:white;
+  font-size: large;
+  background-color:rgba(255, 255, 0, 0.3);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.logo .u {
+  color:blue;
+  font-size: small;
+  background-color: rgba(255,200,200,0.4);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.logo .t{
+  color: pink;
+  font-size: large;
+  background-color: rgba(0,0, 255, 0.2);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.logo .e{
+  position: grid;
+  color:yellow;
+  font-size: small;
+  background-color: rgba(255,255,255.0.6);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.left .requestform{
+  display: grid;
+  position: absolute;
+  background-color: lightblue;
+  top: 75px;
+  left: 30%;
+  padding: 20px;
+  border-radius: 25px;
+  transform: translateY(-150%);
+  transition: .6s;
+  z-index: -1;
+}
+.left .requestform #email{
+  display: inline;
+  height: 20px;
+}
+.left .requestform #submit{
+  color: lightblue;
+  background: snow;
+  padding: 5px;
+  border-radius: 2px;
+  display: inline;
+}
+#request:checked ~.nav .left .requestform{
+  transform: translateY(0);
+}

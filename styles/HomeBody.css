@@ -1,0 +1,32 @@
+.homeBody{
+  padding-top: 50px;
+}
+.homeBody .title h1{
+  color: lightblue;
+  box-shadow: 2px 2px 2px black;
+}
+.homeBody .collect{
+  position: relative;
+  display: flex;
+  overflow:auto;
+}
+.movie{
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  background: linear-gradient(45deg, white, pink, lightblue);
+}
+.movie img{
+  object-fit:fill;
+  width: 200px;
+  border-radius: 5px;
+}
+.movie p{
+  color: black;
+  margin: 5px;
+}
+.movie:hover{
+  box-shadow: 5px 5px 5px black;
+}
